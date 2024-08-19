@@ -1,0 +1,20 @@
+[package]
+name = "quantum_defi_platform"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pqcrypto = "0.6"
+solana-sdk = "2.0.5"  # or the latest version
+solana-program = "2.0.5"  # or the version you're targeting
+solana-client = "2.0.5"
+solana-program-test = "2.0.5"
+pqcrypto-ntru = "0.5.8"
+#ed25519-dalek = "2.1.1"
+#curve25519-dalek = "3.2.1" # Dependency for `ed25519-dalek`
+#rand = "0.8.5"
+rand = "0.8"
+toml = "0.8.19"
+serde = { version = "1.0", features = ["derive"] }
+
+
