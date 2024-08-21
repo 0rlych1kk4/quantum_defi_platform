@@ -19,6 +19,7 @@ impl QuantumSafeContract {
     }
 }
 
+pub mod core;
 // Define the entrypoint using the macro
 entrypoint!(process_instruction);
 
